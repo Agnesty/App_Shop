@@ -6,7 +6,7 @@ import 'package:shop_app/widgets/promotions_part.dart';
 import '../providers/cart_provider.dart';
 import '../widgets/app_drawer.dart';
 import '../widgets/appbar_content.dart';
-import '../widgets/badge.dart';
+import '../widgets/badgee.dart';
 import '../widgets/list_widget.dart';
 import 'cart_screen.dart';
 
@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
             child: AppBarContent(
               title: 'ShopApp',
               child: Consumer<Cart>(
-                builder: (_, cart, ch) => Badge(
+                builder: (_, cart, ch) => Badgee(
                   value: cart.itemCount.toString(),
                   child: ch!,
                 ),

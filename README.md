@@ -1,16 +1,19 @@
-# shop_app
+# Shop App
+Simple clean Shop App.
 
-A new Flutter project.
+## Packages I am using:
+- google_nav_bar
+- http
+- intl
+- provider
+- scroll_snap_list
+- shared_preferences
 
-## Getting Started
+### APP UI:
 
-This project is a starting point for a Flutter application.
+![App UI](/1shopApp.png)
 
-A few resources to get you started if this is your first Flutter project:
+![App UI](/2shopApp.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![App UI](/3shopApp.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
